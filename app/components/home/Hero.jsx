@@ -10,11 +10,11 @@ const Hero = () => {
 
     return (
         <div>
-            <section className="relative h-[70vh] md:h-[85vh] overflow-hidden bg-[#0a0a0a]">
+            <section className="relative h-[70vh] md:h-[90vh] px-12 md:px-12 lg:px-64 overflow-hidden bg-[#0a0a0a]">
 
                 <div className="absolute inset-0 bg-linear-to-r from-black/90 via-black/60 to-transparent" />
 
-                <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col-reverse items-center justify-center gap-10 px-6 py-12 md:flex-row md:px-12 lg:px-20">
+                <div className="relative z-10 mx-auto flex h-full flex-col-reverse items-center justify-center gap-10 px-6 py-12 md:flex-row md:px-12 lg:px-20">
                     <motion.div
                         className="w-full md:w-1/2"
                         initial={{ opacity: 0, y: 30 }}
@@ -22,12 +22,12 @@ const Hero = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <p className="text-primary text-sm font-semibold tracking-[0.2em] uppercase mb-4">
-                            Transform Your Body
+                            Empower Your Fitness Journey
                         </p>
                         <h1 className="text-white font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-tight">
                             Unleash Your
                             <br />
-                            Greatest <span className="text-primary">Potential</span>
+                            Great <span className="text-primary">Potential</span>
                         </h1>
                         <p className="text-muted-foreground mt-6 text-base md:text-lg max-w-md leading-relaxed">
                             <a href="/watch" className="underline">Watch</a> or <a href="/upload" className="underline">Upload</a> workouts, track your progress, and connect with a community of fitness enthusiasts. Your journey to a stronger, healthier life starts here.
